@@ -1,8 +1,8 @@
 # Credit_Risk_Analysis
-### Overview
+## Overview
 Evaluation of data with unbalanced classes using oversampling, undersampling and a combinational approach in order to compare machine learning models that reduce bias and predict credit risk.
 
-### Results
+## Results
  - Naive Random Oversampling
    ![image](https://user-images.githubusercontent.com/81878169/132171103-cce5c8b9-14b7-4512-ad31-e964e0b4c017.png)
 
@@ -23,4 +23,9 @@ Evaluation of data with unbalanced classes using oversampling, undersampling and
 
 
 
-### Summary
+## Summary
+- The F1 score for the high_risk category for all models indicates a high imbalance between sensitivity and precision. The opposite is true for the low_risk category.
+- The algorithms for all 6 models are successful in predicting credit worthiness for the low_risk category.
+- The algorithms are NOT useful for predicting credit worthiness for the high_risk category.
+
+
