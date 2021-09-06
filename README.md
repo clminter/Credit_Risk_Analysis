@@ -28,4 +28,4 @@ Evaluation of data with unbalanced classes using oversampling, undersampling and
 - The algorithms for all 6 models are successful in predicting credit worthiness for the low_risk category.
 - The algorithms are NOT useful for predicting credit worthiness for the high_risk category.
 
-
+The support number clearly indicates a very unbalanced dataset; a lot of data for the low_risk category and very little data for the high_risk category.  The Easy Ensemble AdaBoost Classifier model makes the best attempt at balancing this incongruity, but still falls short. In order to more fairly evaluate high risk customers, more data is needed to model results with higher precision.
